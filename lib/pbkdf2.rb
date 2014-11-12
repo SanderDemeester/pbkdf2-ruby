@@ -56,7 +56,7 @@ class PBKDF2
   end
 
   def value
-    calculate! if @value.nil?
+    calculate! if @value.blank?
     @value
   end
 
